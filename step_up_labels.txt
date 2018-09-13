@@ -1,0 +1,8 @@
+datasheet:robot_diagram
+Rsc:R1
+180ohm:R2
+R1:R5
+R2:R4
+100uF:C1
+CT:C2
+CO:C4
