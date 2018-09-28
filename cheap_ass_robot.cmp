@@ -1,4 +1,12 @@
-Cmp-Mod V01 Created by PcbNew   date = Thursday, September 13, 2018 'PMt' 07:35:15 PM
+Cmp-Mod V01 Created by PcbNew   date = Saturday, September 15, 2018 'PMt' 05:25:59 PM
+
+BeginCmp
+TimeStamp = 5B8DAE28
+Path = /5B613987
+Reference = D2;
+ValeurCmp = Schottky_Diode;
+IdModule  = Diodes_SMD:D_SMB;
+EndCmp
 
 BeginCmp
 TimeStamp = 5B8DAE40
@@ -35,7 +43,7 @@ EndCmp
 BeginCmp
 TimeStamp = 5B8DADA5
 Path = /5B63F1E8
-Reference = C6;
+Reference = C8;
 ValeurCmp = 100nF;
 IdModule  = Capacitors_SMD:C_0805;
 EndCmp
@@ -43,7 +51,7 @@ EndCmp
 BeginCmp
 TimeStamp = 5B8DADB6
 Path = /5B63D83F
-Reference = C7;
+Reference = C9;
 ValeurCmp = 1uF;
 IdModule  = Capacitors_SMD:C_0805;
 EndCmp
@@ -51,7 +59,7 @@ EndCmp
 BeginCmp
 TimeStamp = 5B8DADD8
 Path = /5B63DA64
-Reference = C9;
+Reference = C11;
 ValeurCmp = 1uF;
 IdModule  = Capacitors_SMD:C_0805;
 EndCmp
@@ -59,7 +67,7 @@ EndCmp
 BeginCmp
 TimeStamp = 5B8DADE9
 Path = /5B6296E1
-Reference = C10;
+Reference = C12;
 ValeurCmp = 100nF;
 IdModule  = Capacitors_SMD:C_0805;
 EndCmp
@@ -67,7 +75,7 @@ EndCmp
 BeginCmp
 TimeStamp = 5B8DADFA
 Path = /5B62DCDA
-Reference = C11;
+Reference = C13;
 ValeurCmp = 100nF;
 IdModule  = Capacitors_SMD:C_0805;
 EndCmp
@@ -78,14 +86,6 @@ Path = /5B6E6165
 Reference = D1;
 ValeurCmp = PWR;
 IdModule  = LEDs:LED_0805;
-EndCmp
-
-BeginCmp
-TimeStamp = 5B8DAE28
-Path = /5B613987
-Reference = D2;
-ValeurCmp = Schottky_Diode;
-IdModule  = Diodes_SMD:D_SMB;
 EndCmp
 
 BeginCmp
@@ -323,7 +323,7 @@ EndCmp
 BeginCmp
 TimeStamp = 5B908E33
 Path = /5B63D8E0
-Reference = C8;
+Reference = C10;
 ValeurCmp = 4.7uF 16V;
 IdModule  = Capacitors_SMD:CP_Elec_4x5.7;
 EndCmp
@@ -342,6 +342,22 @@ Path = /5B613AED
 Reference = C4;
 ValeurCmp = CP;
 IdModule  = Capacitors_SMD:CP_Elec_4x5.7;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B9B206D
+Path = /5B9B22F5
+Reference = C6;
+ValeurCmp = 22pF;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B9B2073
+Path = /5B9B2225
+Reference = C7;
+ValeurCmp = 22pF;
+IdModule  = Capacitors_SMD:C_0805;
 EndCmp
 
 EndListe
