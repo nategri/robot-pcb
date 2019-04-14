@@ -15,7 +15,7 @@
   (page A4)
   (layers
     (0 F.Cu signal)
-    (31 B.Cu signal hide)
+    (31 B.Cu signal)
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user)
@@ -62,7 +62,7 @@
     (pad_drill 0.762)
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 0 0)
-    (visible_elements FFFEFFDF)
+    (visible_elements FFFFFFFF)
     (pcbplotparams
       (layerselection 0x010f0_80000001)
       (usegerberextensions true)
@@ -2647,8 +2647,8 @@
   (segment (start 176.784 84.836) (end 172.212 89.408) (width 0.25) (layer F.Cu) (net 28) (tstamp 5BADA8A8))
   (segment (start 172.212 89.408) (end 172.212 106.68) (width 0.25) (layer F.Cu) (net 28) (tstamp 5BADA8B2))
   (segment (start 174.599417 75.87901) (end 175.294427 75.184) (width 0.25) (layer F.Cu) (net 28))
-  (segment (start 173.736 108.204) (end 173.736 111.252) (width 0.25) (layer F.Cu) (net 28) (tstamp 5BADACAA) (status 800000))
-  (segment (start 173.736 111.252) (end 173.863 111.379) (width 0.25) (layer F.Cu) (net 28) (tstamp 5BADACB5) (status C00000))
+  (segment (start 173.736 108.204) (end 173.736 111.252) (width 0.25) (layer F.Cu) (net 28) (tstamp 5BADACAA))
+  (segment (start 173.736 111.252) (end 173.863 111.379) (width 0.25) (layer F.Cu) (net 28) (tstamp 5BADACB5))
   (segment (start 173.804197 111.506) (end 173.863 111.379) (width 0.25) (layer F.Cu) (net 28) (tstamp 5BADA8CB))
   (segment (start 173.804197 111.506) (end 173.863 111.379) (width 0.25) (layer F.Cu) (net 28) (tstamp 5B9B2DA5))
   (segment (start 178.308 75.946) (end 178.308 65.532) (width 0.25) (layer B.Cu) (net 29))

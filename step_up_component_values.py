@@ -30,7 +30,8 @@ R1 = 1.0 # [ohms]
 
 f = 100.0e3 # Frequncy of circuit [Hz]
 
-V_drop_diode = 0.55 # [V]
+#V_drop_diode = 0.55 # [V] (Bench numbers)
+V_drop_diode = 0.51 # [V] (SMD component)
 V_sat = 0.45 # Saturation voltage of transistor in IC [V]
 
 V_ripple = 0.1
