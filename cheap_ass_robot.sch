@@ -176,17 +176,6 @@ F 3 "" H 1150 4050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L L_Core_Iron_Small L1
-U 1 1 5B613419
-P 2300 4250
-F 0 "L1" V 2250 4150 50  0000 L CNN
-F 1 "L" V 2400 4200 50  0000 L CNN
-F 2 "Inductors_SMD:L_0805" H 2300 4250 50  0001 C CNN
-F 3 "" H 2300 4250 50  0001 C CNN
-	1    2300 4250
-	0    1    1    0   
-$EndComp
-$Comp
 L D_Schottky_Small_ALT D2
 U 1 1 5B613987
 P 2700 3450
@@ -270,7 +259,7 @@ Text Notes 6450 3450 0    50   ~ 0
 A4
 Text Notes 6450 3350 0    50   ~ 0
 A5
-Text Notes 1050 4400 0    60   ~ 0
+Text Notes 1400 4600 0    60   ~ 0
 Voltage Regulator
 Text Notes 1900 5400 0    60   ~ 0
 Battery
@@ -901,7 +890,7 @@ Wire Wire Line
 	850  4050 1050 4050
 Connection ~ 2400 4050
 Wire Wire Line
-	2400 4250 2400 4050
+	2400 4050 2400 4400
 Wire Wire Line
 	2400 3200 2500 3200
 Connection ~ 2500 2600
@@ -934,9 +923,7 @@ Wire Wire Line
 	2200 4050 2700 4050
 Connection ~ 850  4050
 Wire Wire Line
-	850  4250 2200 4250
-Wire Wire Line
-	850  3850 850  4250
+	850  3850 850  4400
 Wire Wire Line
 	850  3850 1250 3850
 Wire Wire Line
@@ -1160,4 +1147,45 @@ Connection ~ 8000 1300
 Wire Wire Line
 	4600 6800 4000 6800
 Connection ~ 4000 6800
+$Comp
+L L L1
+U 1 1 5CD67618
+P 1150 4400
+F 0 "L1" V 1100 4400 50  0000 C CNN
+F 1 "L" V 1225 4400 50  0000 C CNN
+F 2 "Inductors_SMD:L_0805" H 1150 4400 50  0001 C CNN
+F 3 "" H 1150 4400 50  0001 C CNN
+	1    1150 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L L L2
+U 1 1 5CD67719
+P 1650 4400
+F 0 "L2" V 1600 4400 50  0000 C CNN
+F 1 "L" V 1725 4400 50  0000 C CNN
+F 2 "Inductors_SMD:L_0805" H 1650 4400 50  0001 C CNN
+F 3 "" H 1650 4400 50  0001 C CNN
+	1    1650 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L L L3
+U 1 1 5CD677C7
+P 2150 4400
+F 0 "L3" V 2100 4400 50  0000 C CNN
+F 1 "L" V 2225 4400 50  0000 C CNN
+F 2 "Inductors_SMD:L_0805" H 2150 4400 50  0001 C CNN
+F 3 "" H 2150 4400 50  0001 C CNN
+	1    2150 4400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	850  4400 1000 4400
+Wire Wire Line
+	1300 4400 1500 4400
+Wire Wire Line
+	1800 4400 2000 4400
+Wire Wire Line
+	2400 4400 2300 4400
 $EndSCHEMATC

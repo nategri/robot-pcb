@@ -1,22 +1,6 @@
 # Reference:
 # http://www.learningaboutelectronics.com/Articles/Switch-mode-power-supply-circuit-with-an-MC34063.php
 
-# Bench test
-#
-# 3.7 V in
-# 5.37 V out
-#
-# Actual values used
-# 180 Ohm -> 220 Ohm
-# Rsc -> 0 Ohm (short)
-# 100 uF -> 100 uF
-# R1 -> 100 Ohms
-# R2 -> 330 Ohms
-# CO -> 680 uF
-# CT -> 150 pF
-# L -> 1.5 uH
-
-
 #
 # Inputs
 #
@@ -30,11 +14,10 @@ R1 = 1.0 # [ohms]
 
 f = 100.0e3 # Frequncy of circuit [Hz]
 
-#V_drop_diode = 0.55 # [V] (Bench numbers)
-V_drop_diode = 0.51 # [V] (SMD component)
+V_drop_diode = 0.4 # [V]
 V_sat = 0.45 # Saturation voltage of transistor in IC [V]
 
-V_ripple = 0.1
+V_ripple = 0.25
 
 #
 # Calculations
@@ -53,7 +36,7 @@ I_peak = 2 * I_out * (T_on_over_T_off + 1) # [A]
 
 R_sc = (0.3 / I_peak) / 1.0e-3 # [mOhms]
 
-L_min = (T_on * (V_in - V_sat) / I_peak) # [uH]
+L_min = (T_on * (V_in - V_sat) / I_peak) / 1.0e-6 # [uH]
 
 C_o = (9 * (I_out * T_on) / V_ripple) # [uF]
 
@@ -72,5 +55,3 @@ print("R_sc: {} mOhms".format(R_sc))
 print("")
 print("C_T: {} pF".format(C_T))
 print("C_o: {} uF".format(C_o))
-print("")
-print("L: {} uH".format(L_min))
